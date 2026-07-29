@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Fred Candiota | Agência MVP</title>
+<meta name="description" content="Marketing, vendas e produto resolvidos com diagnóstico real, treinamento, consultoria e assessoria da Agência MVP.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;700;800&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+  * { box-sizing: border-box; }
+  body { margin: 0; font-family: 'Archivo', sans-serif; background: #F2F2F0; color: #262420; }
+  a { color: #262420; text-decoration: none; }
+  a:hover { opacity: 0.7; }
+  ::selection { background: #C9971F; color: #1a1a1a; }
+  .mono { font-family: 'JetBrains Mono', monospace; }
+  .kicker { font-family: 'JetBrains Mono', monospace; font-size: 12px; letter-spacing: 0.05em; text-transform: uppercase; color: #C9971F; font-weight: 700; margin: 0 0 16px; }
+
+  @media (max-width: 860px) {
+    .site-header { padding: 14px 5vw !important; }
+    .site-header .brand { font-size: 0.82rem !important; }
+    .site-header .cta { padding: 9px 16px !important; font-size: 12px !important; }
+    .hero-grid { grid-template-columns: 1fr !important; gap: 32px !important; padding-top: calc(90px + 5vh) !important; }
+    .hero-photo-wrap { min-height: 280px !important; order: -1; }
+    .footer-grid { grid-template-columns: 1fr 1fr !important; gap: 28px !important; }
+    .turma-banner { flex-direction: column !important; align-items: flex-start !important; }
+    .turma-banner a { margin-left: 0 !important; width: 100%; text-align: center; }
+    .cronograma-row { gap: 14px !important; }
+  }
+  @media (max-width: 520px) {
+    .footer-grid { grid-template-columns: 1fr !important; }
+    .cronograma-row span:first-child { width: 32px !important; }
+  }
+</style>
+</head>
+<body>
+<div style="background: #F2F2F0; color: #262420;">
+
+  <header class="site-header" style="position: fixed; top: 0; left: 0; right: 0; z-index: 10; display: flex; justify-content: space-between; align-items: center; padding: 20px 6vw; background: rgba(242,242,240,0.85); backdrop-filter: blur(8px); border-bottom: 1px solid #DEDDD8;">
+    <span class="brand" style="font-size: 1rem; letter-spacing: -0.01em;"><span style="font-weight: 400;">Fred Candiota</span> <span>|</span> <span style="font-weight: 800;">Agência</span> <span style="font-weight: 400;">MVP</span></span>
+    <a class="cta" href="https://wa.me/5553999246827?text=Fala%20Fred%2C%20quero%20saber%20mais%20sobre%20os%20servi%C3%A7os%20da%20Ag%C3%AAncia%20MVP" target="_blank" rel="noopener" style="background: #1a1a1a; color: #F2F2F0; padding: 11px 22px; font-weight: 700; font-size: 13px; border-radius: 4px; white-space: nowrap;">Falar com o time</a>
+  </header>
+
+  <section class="hero-grid" style="padding: calc(96px + 8vh) 6vw 8vh; display: grid; grid-template-columns: 1.1fr 1fr; gap: 60px; align-items: center; max-width: 1280px; margin: 0 auto;">
+    <div>
+      <p class="kicker">// Agência MVP</p>
+      <h1 style="font-size: clamp(2rem, 3.4vw, 3rem); line-height: 1.2; font-weight: 800; margin: 0 0 24px; max-width: 18ch; letter-spacing: -0.02em;">
+        Eu e meu time destravamos o marketing, vendas e produto do teu negócio
+      </h1>
+      <p style="font-size: 1.05rem; font-weight: 400; color: #6b6862; max-width: 46ch; margin: 0 0 32px; line-height: 1.7;">
+        A gente faz isso através de treinamento, consultoria e assessoria. Depois de anos trabalhando com dono de negócio que tá sobrecarregado, aprendi que o problema quase nunca é falta de esforço. É falta de um plano certo e de alguém junto pra colocar em prática. É isso que eu e meu time entregamos.
+      </p>
+      <div style="display: flex; gap: 14px; flex-wrap: wrap;">
+        <a href="https://wa.me/5553999246827?text=Fala%20Fred%2C%20quero%20saber%20mais%20sobre%20os%20servi%C3%A7os%20da%20Ag%C3%AAncia%20MVP" target="_blank" rel="noopener" style="background: #1a1a1a; color: #F2F2F0; padding: 15px 28px; font-weight: 700; font-size: 14px; border-radius: 4px;">Falar com o time</a>
+        <a href="#servicos" style="border: 1px solid #262420; padding: 15px 28px; font-weight: 700; font-size: 14px; border-radius: 4px;">Ver os serviços</a>
+      </div>
+    </div>
+
+    <div class="hero-photo-wrap" style="position: relative; display: flex; align-items: center; justify-content: center; min-height: 420px; height: 100%;">
+      <div style="position: absolute; inset: -8%; background: radial-gradient(circle, #ffffff 0%, #F2F2F0 55%, rgba(242,242,240,0) 75%); z-index: 0;"></div>
+      <img src="uploads/fred-photo-2.png" alt="Fred Candiota" style="position: relative; z-index: 1; width: 100%; max-width: 480px; display: block; margin: 0 auto;">
+    </div>
+  </section>
+
+  <section style="background: #1a1a1a; color: #F2F2F0; padding: 90px 6vw;">
+    <p class="kicker" style="text-align: center;">// Metodologia</p>
+    <h2 style="font-size: clamp(1.4rem, 2.6vw, 2.1rem); font-weight: 700; line-height: 1.5; margin: 0 auto 24px; max-width: 36ch; text-align: center;">
+      Como a gente trabalha
+    </h2>
+    <p style="font-size: 0.98rem; color: #918e88; max-width: 42ch; margin: 0 auto 56px; text-align: center; line-height: 1.7;">
+      Não trabalho com pacote fechado. Antes de qualquer treinamento, consultoria ou execução, a gente faz um diagnóstico real do teu negócio nos três pilares que sustentam qualquer operação. Só depois de entender onde tá o gargalo é que monto o plano, na ordem de prioridade certa pro teu momento.
+    </p>
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 20px; max-width: 820px; margin: 0 auto;">
+      <div style="border: 1px solid #333; border-radius: 10px; padding: 28px; text-align: left;">
+        <div class="mono" style="color: #C9971F; font-weight: 700; font-size: 0.85rem; margin-bottom: 16px;">01</div>
+        <div style="font-weight: 700; margin-bottom: 8px;">Produto</div>
+        <div style="font-size: 0.88rem; color: #918e88; line-height: 1.5;">Oferta, entregáveis e proposta de valor ajustados pro que o negócio precisa de verdade</div>
+      </div>
+      <div style="border: 1px solid #333; border-radius: 10px; padding: 28px; text-align: left;">
+        <div class="mono" style="color: #C9971F; font-weight: 700; font-size: 0.85rem; margin-bottom: 16px;">02</div>
+        <div style="font-weight: 700; margin-bottom: 8px;">Marketing</div>
+        <div style="font-size: 0.88rem; color: #918e88; line-height: 1.5;">Posicionamento claro e conteúdo que atrai o cliente certo, não só engajamento vazio</div>
+      </div>
+      <div style="border: 1px solid #333; border-radius: 10px; padding: 28px; text-align: left;">
+        <div class="mono" style="color: #C9971F; font-weight: 700; font-size: 0.85rem; margin-bottom: 16px;">03</div>
+        <div style="font-weight: 700; margin-bottom: 8px;">Vendas</div>
+        <div style="font-size: 0.88rem; color: #918e88; line-height: 1.5;">Processo comercial e cadência de follow-up pra nenhum lead esfriar no meio do caminho</div>
+      </div>
+    </div>
+  </section>
+
+  <section id="servicos" style="padding: 100px 6vw; max-width: 1280px; margin: 0 auto;">
+    <p class="kicker" style="text-align: center;">// Serviços</p>
+    <h2 style="font-size: clamp(1.7rem, 3vw, 2.5rem); font-weight: 800; margin: 0 0 16px; text-align: center; letter-spacing: -0.01em;">Escolhe o ponto de partida</h2>
+    <p style="font-size: 1rem; color: #6b6862; max-width: 42ch; margin: 0 auto 56px; text-align: center;">Do treinamento pontual ao acompanhamento contínuo, cada um resolve uma etapa diferente.</p>
+
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px;">
+
+      <div style="background: #fff; border: 1px solid #DEDDD8; border-radius: 10px; padding: 32px; display: flex; flex-direction: column;">
+        <div style="width: 44px; height: 44px; border-radius: 8px; background: rgba(76,123,209,0.12); display: flex; align-items: center; justify-content: center; margin-bottom: 20px;">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#4C7BD1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20V10M18 20V4M6 20v-4"/></svg>
+        </div>
+        <div style="font-size: 11px; letter-spacing: 0.05em; text-transform: uppercase; color: #918e88; font-weight: 700; margin-bottom: 10px;">Treinamento</div>
+        <h3 style="font-size: 1.25rem; font-weight: 800; margin: 0 0 10px;">MVP Class</h3>
+        <p style="font-size: 0.92rem; color: #6b6862; line-height: 1.6; margin: 0 0 24px; flex-grow: 1;">7 encontros ao vivo comigo e especialistas, pra sair com o plano de marketing, vendas e produto pronto.</p>
+        <div class="mono" style="font-size: 0.75rem; color: #918e88; margin-bottom: 16px;">7 encontros · ao vivo</div>
+        <a href="#contato" style="font-weight: 700; font-size: 0.88rem;">Quero essa turma →</a>
+      </div>
+
+      <div style="background: #fff; border: 1px solid #DEDDD8; border-radius: 10px; padding: 32px; display: flex; flex-direction: column;">
+        <div style="width: 44px; height: 44px; border-radius: 8px; background: rgba(139,111,217,0.12); display: flex; align-items: center; justify-content: center; margin-bottom: 20px;">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#8B6FD9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="4" width="7" height="7" rx="1"/><rect x="13" y="4" width="7" height="7" rx="1"/><rect x="4" y="13" width="7" height="7" rx="1"/><rect x="13" y="13" width="7" height="7" rx="1"/></svg>
+        </div>
+        <div style="font-size: 11px; letter-spacing: 0.05em; text-transform: uppercase; color: #918e88; font-weight: 700; margin-bottom: 10px;">In company</div>
+        <h3 style="font-size: 1.25rem; font-weight: 800; margin: 0 0 10px;">Treinamento In Company</h3>
+        <p style="font-size: 0.92rem; color: #6b6862; line-height: 1.6; margin: 0 0 24px; flex-grow: 1;">Conteúdo desenhado pro diagnóstico da tua empresa, aplicado dentro dela.</p>
+        <div class="mono" style="font-size: 0.75rem; color: #918e88; margin-bottom: 16px;">carga horária sob diagnóstico</div>
+        <a href="#contato" style="font-weight: 700; font-size: 0.88rem;">Quero pro meu time →</a>
+      </div>
+
+      <div style="background: #fff; border: 1px solid #DEDDD8; border-radius: 10px; padding: 32px; display: flex; flex-direction: column;">
+        <div style="width: 44px; height: 44px; border-radius: 8px; background: rgba(224,138,60,0.12); display: flex; align-items: center; justify-content: center; margin-bottom: 20px;">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#E08A3C" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="4"/><circle cx="12" cy="12" r="0.5" fill="#E08A3C"/></svg>
+        </div>
+        <div style="font-size: 11px; letter-spacing: 0.05em; text-transform: uppercase; color: #918e88; font-weight: 700; margin-bottom: 10px;">Consultoria</div>
+        <h3 style="font-size: 1.25rem; font-weight: 800; margin: 0 0 10px;">Implementação 45D</h3>
+        <p style="font-size: 0.92rem; color: #6b6862; line-height: 1.6; margin: 0 0 24px; flex-grow: 1;">Diagnóstico, plano de ação e acompanhamento direto em 45 dias.</p>
+        <div class="mono" style="font-size: 0.75rem; color: #918e88; margin-bottom: 16px;">45 dias · individual</div>
+        <a href="#contato" style="font-weight: 700; font-size: 0.88rem;">Quero destravar →</a>
+      </div>
+
+      <div style="background: #fff; border: 1px solid #DEDDD8; border-radius: 10px; padding: 32px; display: flex; flex-direction: column;">
+        <div style="width: 44px; height: 44px; border-radius: 8px; background: rgba(79,163,114,0.12); display: flex; align-items: center; justify-content: center; margin-bottom: 20px;">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#4FA372" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 3v18h18"/><path d="M7 14l4-4 3 3 5-6"/></svg>
+        </div>
+        <div style="font-size: 11px; letter-spacing: 0.05em; text-transform: uppercase; color: #918e88; font-weight: 700; margin-bottom: 10px;">Consultoria recorrente</div>
+        <h3 style="font-size: 1.25rem; font-weight: 800; margin: 0 0 10px;">Consultoria MVPro</h3>
+        <p style="font-size: 0.92rem; color: #6b6862; line-height: 1.6; margin: 0 0 24px; flex-grow: 1;">Acompanhamento direto, mês a mês, por 6 meses, sem ficar sozinho.</p>
+        <div class="mono" style="font-size: 0.75rem; color: #918e88; margin-bottom: 16px;">6 meses · recorrente</div>
+        <a href="#contato" style="font-weight: 700; font-size: 0.88rem;">Quero acompanhamento →</a>
+      </div>
+
+      <div style="background: #fff; border: 1px solid #DEDDD8; border-radius: 10px; padding: 32px; display: flex; flex-direction: column;">
+        <div style="width: 44px; height: 44px; border-radius: 8px; background: rgba(217,111,154,0.12); display: flex; align-items: center; justify-content: center; margin-bottom: 20px;">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#D96F9A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l2.5 5 5.5.8-4 4 1 5.5-5-2.6-5 2.6 1-5.5-4-4 5.5-.8z"/></svg>
+        </div>
+        <div style="font-size: 11px; letter-spacing: 0.05em; text-transform: uppercase; color: #918e88; font-weight: 700; margin-bottom: 10px;">Assessoria recorrente</div>
+        <h3 style="font-size: 1.25rem; font-weight: 800; margin: 0 0 10px;">Assessoria Personalizada</h3>
+        <p style="font-size: 0.92rem; color: #6b6862; line-height: 1.6; margin: 0 0 24px; flex-grow: 1;">Combinação sob medida de treinamento, consultoria e execução.</p>
+        <div class="mono" style="font-size: 0.75rem; color: #918e88; margin-bottom: 16px;">6 meses · sob medida</div>
+        <a href="#contato" style="font-weight: 700; font-size: 0.88rem;">Quero meu diagnóstico →</a>
+      </div>
+
+      <div style="background: #fff; border: 1px solid #DEDDD8; border-radius: 10px; padding: 32px; display: flex; flex-direction: column;">
+        <div style="width: 44px; height: 44px; border-radius: 8px; background: rgba(201,151,31,0.14); display: flex; align-items: center; justify-content: center; margin-bottom: 20px;">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#C9971F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M3 9h18M8 4v5"/></svg>
+        </div>
+        <div style="font-size: 11px; letter-spacing: 0.05em; text-transform: uppercase; color: #918e88; font-weight: 700; margin-bottom: 10px;">Plataforma</div>
+        <h3 style="font-size: 1.25rem; font-weight: 800; margin: 0 0 10px;">MVPro Gestão</h3>
+        <p style="font-size: 0.92rem; color: #6b6862; line-height: 1.6; margin: 0 0 24px; flex-grow: 1;">Gestão interna e externa da empresa num só lugar, sem planilha solta.</p>
+        <div class="mono" style="font-size: 0.75rem; color: #918e88; margin-bottom: 16px;">12 meses · recorrente</div>
+        <a href="#contato" style="font-weight: 700; font-size: 0.88rem;">Quero organizar →</a>
+      </div>
+
+    </div>
+  </section>
+
+  <section style="padding: 0 6vw 100px; max-width: 900px; margin: 0 auto;">
+    <p class="kicker">// Cronograma</p>
+    <h2 style="font-size: clamp(1.4rem, 2.4vw, 1.9rem); font-weight: 800; margin: 0 0 32px;">Como o processo acontece</h2>
+
+    <div style="border-top: 1px solid #DEDDD8;">
+      <div class="cronograma-row" style="display: flex; align-items: center; gap: 24px; padding: 22px 0; border-bottom: 1px solid #DEDDD8;">
+        <span class="mono" style="font-size: 0.85rem; color: #C9971F; font-weight: 700; width: 48px;">01</span>
+        <span style="font-weight: 700; flex: 1;">Conversa inicial pra entender os desafios</span>
+        <span style="color: #918e88;">›</span>
+      </div>
+      <div class="cronograma-row" style="display: flex; align-items: center; gap: 24px; padding: 22px 0; border-bottom: 1px solid #DEDDD8;">
+        <span class="mono" style="font-size: 0.85rem; color: #C9971F; font-weight: 700; width: 48px;">02</span>
+        <span style="font-weight: 700; flex: 1;">Identificação da melhor solução pro momento</span>
+        <span style="color: #918e88;">›</span>
+      </div>
+      <div class="cronograma-row" style="display: flex; align-items: center; gap: 24px; padding: 22px 0; border-bottom: 1px solid #DEDDD8;">
+        <span class="mono" style="font-size: 0.85rem; color: #C9971F; font-weight: 700; width: 48px;">03</span>
+        <span style="font-weight: 700; flex: 1;">Início do serviço</span>
+        <span style="color: #918e88;">›</span>
+      </div>
+      <div class="cronograma-row" style="display: flex; align-items: center; gap: 24px; padding: 22px 0; border-bottom: 1px solid #DEDDD8;">
+        <span class="mono" style="font-size: 0.85rem; color: #C9971F; font-weight: 700; width: 48px;">04</span>
+        <span style="font-weight: 700; flex: 1;">Resultados logo à frente</span>
+        <span style="color: #918e88;">›</span>
+      </div>
+    </div>
+
+    <div class="turma-banner" style="margin-top: 28px; display: flex; align-items: center; gap: 20px; background: #1a1a1a; border-radius: 10px; padding: 22px 28px; flex-wrap: wrap;">
+      <span class="mono" style="background: #C9971F; color: #1a1a1a; font-weight: 700; font-size: 0.75rem; padding: 5px 10px; border-radius: 4px;">TURMA 2 · INSCRIÇÕES ABERTAS</span>
+      <span style="color: #F2F2F0; font-weight: 700; font-size: 0.95rem;">MVP Class começa dia</span>
+      <span class="mono" style="color: #C9971F; font-weight: 700; font-size: 1.1rem;">25/08</span>
+      <a href="https://www.mvpclass.com.br/#prova" target="_blank" rel="noopener" style="margin-left: auto; color: #F2F2F0; font-weight: 700; font-size: 0.85rem; border: 1px solid #444; padding: 10px 18px; border-radius: 4px;">Garantir vaga →</a>
+    </div>
+  </section>
+
+  <section id="contato" style="background: #1a1a1a; color: #F2F2F0; padding: 110px 6vw; text-align: center;">
+    <h2 style="font-size: clamp(1.7rem, 3.2vw, 2.6rem); font-weight: 800; margin: 0 0 24px;">Bora resolver isso <span style="color: #C9971F;">de vez?</span></h2>
+    <p style="font-size: 1rem; color: #918e88; max-width: 40ch; margin: 0 auto 36px;">Se tu tá deixando de fazer o básico no teu negócio, pode acreditar que ele não vai muito longe.</p>
+    <a href="https://wa.me/5553999246827?text=Fala%20Fred%2C%20quero%20saber%20mais%20sobre%20os%20servi%C3%A7os%20da%20Ag%C3%AAncia%20MVP" target="_blank" rel="noopener" style="display: inline-block; background: #C9971F; color: #1a1a1a; padding: 17px 36px; font-weight: 700; font-size: 14px; border-radius: 4px;">Falar com o time</a>
+  </section>
+
+  <footer class="footer-grid" style="padding: 56px 6vw; display: grid; grid-template-columns: 1.3fr 1fr 1fr 1fr; gap: 32px; border-top: 1px solid #DEDDD8;">
+    <div>
+      <div style="margin-bottom: 8px;"><span style="font-weight: 400;">Fred Candiota</span> <span>|</span> <span style="font-weight: 800;">Agência</span> <span style="font-weight: 400;">MVP</span></div>
+      <div style="font-size: 0.85rem; color: #6b6862;">Marketing, vendas e produto na prática</div>
+    </div>
+    <div>
+      <div class="kicker" style="margin-bottom: 12px;">Serviços</div>
+      <div style="display: flex; flex-direction: column; gap: 8px; font-size: 0.88rem; color: #6b6862;">
+        <span>MVP Class</span>
+        <span>Treinamento In Company</span>
+        <span>Implementação 45D</span>
+      </div>
+    </div>
+    <div>
+      <div class="kicker" style="margin-bottom: 12px;">Mais</div>
+      <div style="display: flex; flex-direction: column; gap: 8px; font-size: 0.88rem; color: #6b6862;">
+        <span>Consultoria MVPro</span>
+        <span>Assessoria Personalizada</span>
+        <span>MVPro Gestão</span>
+      </div>
+    </div>
+    <div>
+      <div class="kicker" style="margin-bottom: 12px;">Contato</div>
+      <a href="https://instagram.com/fred.candiota" target="_blank" rel="noopener" style="font-size: 0.88rem; font-weight: 700;">@fred.candiota</a>
+    </div>
+  </footer>
+
+</div>
+</body>
+</html>
