@@ -1,9 +1,7 @@
 {
   "redirects": [
-    { "source": "/sessaoindividual", "destination": "/sessaoindividual/", "permanent": true }
-  ],
-  "rewrites": [
-    { "source": "/sessaoindividual/", "destination": "https://fredcandiotapro-byte.github.io/sessaoestrategicaindividual/" },
-    { "source": "/sessaoindividual/:path*", "destination": "https://fredcandiotapro-byte.github.io/sessaoestrategicaindividual/:path*" }
+    { "source": "/sessaoindividual", "destination": "/", "permanent": true },
+    { "source": "/sessaoindividual/", "destination": "/", "permanent": true },
+    { "source": "/sessaoindividual/:path*", "destination": "/", "permanent": true }
   ]
 }
